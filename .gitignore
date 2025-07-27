@@ -1,0 +1,20 @@
+# Global
+.vscode/
+.idea/
+*.iml
+
+# Python
+migrations/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+*.venv
+venv/
+env/
+ENV/
+Pipfile.lock
+
+# Posgres
+postgres/

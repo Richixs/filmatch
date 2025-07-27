@@ -1,0 +1,24 @@
+# Node modules (ya se instala dentro del contenedor)
+node_modules/
+
+# Builds locales
+dist/
+build/
+
+# IDEs y configuración
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Git y Docker
+.git
+.gitignore
+.dockerignore
+Dockerfile
+docker-compose.yaml
+
+# Archivos de entorno
+.env
+.env.*  # en caso de que uses varios (ej: .env.development)

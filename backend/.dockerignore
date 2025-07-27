@@ -1,0 +1,39 @@
+# Archivos generados
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtualenv
+env/
+venv/
+.venv/
+
+# Archivos ocultos de IDEs
+.vscode/
+.idea/
+
+# Archivos de pruebas
+*.log
+*.sqlite3
+*.pot
+*.py[cod]
+coverage/
+htmlcov/
+*.cover
+*.mo
+
+# Archivos de base de datos (por si acaso)
+db.sqlite3
+*.db
+
+# Docker / Git
+Dockerfile
+docker-compose.yaml
+.dockerignore
+.git
+.gitignore
+
+# Archivos de configuración de entorno (no subir secretos)
+.env
+*.env
