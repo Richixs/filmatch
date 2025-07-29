@@ -1,0 +1,10 @@
+<div class="billboard-title">
+  CARTELERA
+</div>
+
+<div class="movies-grid">
+  <div class="movie-card" *ngFor="let movie of movies">
+    <img [src]="'https://image.tmdb.org/t/p/original/' + movie.poster_path" [alt]="movie.title" />
+    <div class="movie-title">{{ movie.title }}</div>
+  </div>
+</div>
