@@ -6,3 +6,6 @@ class Cine(models.Model):
     
     class Meta:
         db_table = 'cine'
+    
+    def __str__(self):
+        return self.name
